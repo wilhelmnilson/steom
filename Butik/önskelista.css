@@ -1,0 +1,510 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(40, 40, 41);
+}
+.dd{
+  width: 100%;
+  height: 110px;
+  background-color: rgb(17, 17, 32);
+  position: absolute;
+  z-index: -1;
+}
+.steam{
+  margin-top: 11px;
+  margin-left: 10px;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.steam:hover{
+  color:white
+}
+.visa{
+  margin-left: 90px;
+  margin-top:15px;
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.66);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.visa:hover{
+  color:white
+}
+.vänner{
+  margin-left: 130px;
+  margin-top:15px;
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.66);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.vänner:hover{
+  color:white
+}
+.spel{
+  margin-left: 190px;
+  margin-top:15px;
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.66);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.spel:hover{
+  color:white
+}
+.hjälp{
+  margin-left: 230px;
+  margin-top:15px;
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.66);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.hjälp:hover{
+  color:white
+}
+.vänster{
+  font-size: 30px;
+  margin-top: 40px;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+  color:rgba(255, 255, 255, 0.574);
+  margin-left: 20px;
+  cursor:pointer;
+  transition: 0.3s;
+}
+.vänster:hover{
+  color: rgba(255, 255, 255, 0.704)
+}
+.höger{
+  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 60px;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+  color:rgba(255, 255, 255, 0.275);
+  cursor:pointer;
+  transition: 0.3s;
+}
+.höger:hover{
+  color: rgba(255, 255, 255, 0.704)
+}
+.butik{
+  margin-left: 100px;
+  margin-top:50px;
+  position: absolute;
+  background-color: transparent;
+  color: rgb(60, 127, 215);
+  border-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 20px;
+
+}
+
+.butte{
+  background-color:rgb(60, 127, 215);
+  height: 3px;
+  width: 76px;
+  margin-left: 100px;
+  margin-top:80px;
+  position: absolute;
+  border-radius: 20px;
+}
+.biblotek{
+  margin-left: 185px;
+  margin-top:50px;
+  position: absolute;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.819);
+  border-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.biblotek:hover{
+  color: rgb(255, 255, 255);
+}
+.gemenskap{
+  margin-left: 310px;
+  margin-top:50px;
+  position: absolute;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.819);
+  border-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.gemenskap:hover{
+  color: rgb(255, 255, 255);
+}
+.slå{
+  margin-left: 470px;
+  margin-top:50px;
+  position: absolute;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.819);
+  border-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.slå:hover{
+  color: rgb(255, 255, 255);
+}
+.profe{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 1250px;
+  z-index: 1;
+}
+.Namnw{
+  margin-left: 1240px;
+  margin-top: 10px;
+  background-color: rgb(51, 51, 72);
+  border-color: transparent;
+  color: rgb(60, 127, 215);
+  font-weight: 600;
+  height: 30px;
+  width: 180px;
+  padding-left: 40px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.Namnw:hover{
+  background-color: rgb(83, 83, 111);
+}
+.hssss{
+  margin-left: 1120px;
+  margin-top: 10px;
+  background-color: rgb(64, 118, 221);
+  border-color: transparent;
+  color: rgb(60, 127, 215);
+  font-weight: 600;
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.hssss:hover{
+  background-color: rgb(90, 147, 253);
+}
+.alarm{
+  margin-left: 1180px;
+  margin-top: 10px;
+  background-color: rgb(51, 51, 72);
+  border-color: transparent;
+  color: rgb(60, 127, 215);
+  font-weight: 600;
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.alarm:hover{
+  background-color: rgb(83, 83, 111);
+}
+.butik:hover + .butik-menu,
+.butik-menu:hover{
+  display: block;
+
+}
+.butik-menu {
+  display: none;
+  position: absolute;
+  background-color: rgb(51, 51, 72);
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left:100px;
+ margin-top: 80px;
+ width: 60px;
+}
+.butik-menu button{
+  background-color: transparent;
+  margin-left: -50px;
+  border-color: transparent;
+  color: white;
+  width:80px;
+  height:40px;
+  cursor:pointer;
+}
+.butik-menu button:hover{
+background-color: white;
+color:black;
+
+
+}
+.biblotek:hover + .biblotek-menu,
+.biblotek-menu:hover{
+  display: block;
+}
+.biblotek-menu {
+  display: none;
+  position: absolute;
+  background-color: rgb(51, 51, 72);
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left:195px;
+ margin-top: 80px;
+ width: 80px;
+}
+.biblotek-menu button{
+  background-color: transparent;
+  margin-left: -50px;
+  border-color: transparent;
+  color: white;
+  width:100px;
+  height:40px;
+  cursor:pointer;
+}
+.biblotek-menu button:hover{
+background-color: white;
+color:black;
+}
+.biblotek-menu hr{
+  width:98px;
+  margin-left: -50px;
+  height: 0px;
+  border-color: rgba(255, 255, 255, 0.371);
+}
+
+
+
+
+
+.gemenskap:hover + .gemenskap-menu,
+.gemenskap-menu:hover{
+  display: block;
+}
+.gemenskap-menu {
+  display: none;
+  position: absolute;
+  background-color: rgb(51, 51, 72);
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left:330px;
+ margin-top: 80px;
+ width: 80px;
+}
+.gemenskap-menu button{
+  background-color: transparent;
+  margin-left: -50px;
+  border-color: transparent;
+  color: white;
+  width:100px;
+  height:40px;
+  cursor:pointer;
+}
+.gemenskap-menu button:hover{
+background-color: white;
+color:black;
+}
+.gemenskap-menu hr{
+  width:98px;
+  margin-left: -50px;
+  height: 0px;
+  border-color: rgba(255, 255, 255, 0.371);
+}
+
+
+
+
+
+.slå:hover + .slu-menu,
+.slu-menu:hover{
+  display: block;
+}
+.slu-menu {
+  display: none;
+  position: absolute;
+  background-color: rgb(51, 51, 72);
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left:520px;
+ margin-top: 80px;
+ width: 100px;
+}
+.slu-menu button{
+  background-color: transparent;
+  margin-left: -50px;
+  border-color: transparent;
+  color: white;
+  width:120px;
+  height:40px;
+  cursor:pointer;
+}
+.slu-menu button:hover{
+background-color: white;
+color:black;
+}
+
+
+
+
+
+
+
+.Namnw:focus + .namnmenu,
+.namnmenu:focus{
+  display: block;
+}
+.namnmenu {
+  display: none;
+  position: absolute;
+  background-color: rgb(51, 51, 72);
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left:1270px;
+ margin-top: 50px;
+ width: 100px;
+}
+.namnmenu button{
+  background-color: transparent;
+  margin-left: -50px;
+  border-color: transparent;
+  color: white;
+  width:120px;
+  height:40px;
+  cursor: pointer;
+}
+.namnmenu button:hover{
+background-color: white;
+color:black;
+}
+.hrnamnmenu{
+  width: 118px;
+  margin-left: -50px;
+}
+.bille{
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  margin-top: 200px;
+margin-left: 300px;
+}
+.billenamn{
+  margin-left: 400px;
+  position: absolute;
+  color: white;
+  margin-top:200px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large; 
+  font-weight: 600;
+}
+.search-conte input[type=text]{
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 300px;
+  background-color: rgb(40, 40, 41);
+  width: 300px;
+  height: 30px;
+ border-color: rgb(61, 61, 61);
+ border-radius: 4px;
+}
+.search-conte input[type=text]:hover{
+  border-color: rgba(255, 255, 255, 0.138);
+  border-style: solid;
+  color:white;
+}
+.önskelistas{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(126, 197, 255);
+  border-color: transparent;
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 150px;
+  color: white;
+  font-weight: 400;
+  font-size: small;
+  transition: 0.2s;
+}
+.önskelistas:hover{
+  background-color: white;
+  color: black;
+}
+.alternativs{
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  position:absolute;
+  margin-top: 300px;
+  margin-left: 700px;
+  font-size: larger;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.alternativs:hover{
+  background-color: rgba(255, 255, 255, 0.112);
+}
+
+.sorteraa{
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  position:absolute;
+  margin-top: 300px;
+  margin-left: 900px;
+  font-size: larger;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.sorteraa:hover{
+  background-color: rgba(255, 255, 255, 0.112);
+}
+.hhhhr{
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 300px;
+  width: 1000px;
+  background-color: rgba(255, 255, 255, 0.405);
+  border-color: rgba(255, 255, 255, 0);
+}
+.hoppsanl{
+  color: white;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 400px;
+  margin-right: 700px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
